@@ -1,0 +1,122 @@
+{
+    "acquisition_software": "pychron 20.1",
+    "aliquot": 1,
+    "analysis_type": "unknown",
+    "analyst_name": "",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.1",
+    "comment": "",
+    "commit": "38f605631822b1e08943979863c86092a3ed78cb",
+    "conditionals": null,
+    "data_reduction_software": "pychron 20.1",
+    "detectors": {
+        "AX": {
+            "deflection": 0.0,
+            "gain": 1.0110226
+        },
+        "CDD": {
+            "deflection": 0.0,
+            "gain": 0.0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1.0364801
+        },
+        "L1": {
+            "deflection": 0.0,
+            "gain": 1.0066506
+        },
+        "L2": {
+            "deflection": 0.0,
+            "gain": 1.0470811
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [],
+        "lab_temperatures": []
+    },
+    "experiment_queue_name": "20200701",
+    "experiment_type": "Ar/Ar",
+    "extraction": "argus_CO2analysis.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "1168",
+    "increment": 3,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "UA001",
+    "irradiation_level": "B",
+    "irradiation_position": 8,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000"
+        },
+        "PM41": {
+            "detector": "H2",
+            "name": "PM41",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "latitude": 0.0,
+    "lithology": "",
+    "lithology_class": "",
+    "lithology_group": "",
+    "lithology_type": "",
+    "longitude": 0.0,
+    "mass_spectrometer": "argus",
+    "material": "Muscovite",
+    "measurement": "argus_unknown600_180.py",
+    "post_equilibration": "argus_pump_v1_900_turbo.py",
+    "post_measurement": "argus_pump_ms.py",
+    "principal_investigator": "Clinkscales, C",
+    "project": "Rincon Mts",
+    "queue_conditionals_name": "",
+    "repository_identifier": "RinconMts",
+    "rlocation": "",
+    "sample": "TV-1240",
+    "source": {
+        "emission": 738.905,
+        "trap": 199.042
+    },
+    "spec_sha": "35164662917612c4886f821e12339f9b75f26e8f",
+    "timestamp": "2020-07-02T02:24:37.711083",
+    "tripped_conditional": null,
+    "unit": "",
+    "username": "",
+    "uuid": "c8548f7f-3625-4029-a980-c1ac28303d7f",
+    "whiff_result": null
+}
